@@ -8,7 +8,7 @@ IBM offers them for free for one month on their ibm cloud. Just set one up on ht
 # 2. Machine Setup
 Log into your new IBM machine. 
 
-Install some requirements that we will need later. Curl will be needed later for Signal Proxy, but they don't have it in their requirements list. If you don't install it you won't see an error message and the system will just fail to start in the end. 
+Install some requirements that we will need later. Curl will be needed for setting up Signal Proxy, but they don't have it in their requirements list. If you don't install it you won't see an error message and the system will just fail to start in the end. 
 ```console
 $ sudo apt-get install docker docker-compose wget curl git
 ```
